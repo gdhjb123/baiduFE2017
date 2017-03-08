@@ -1,0 +1,48 @@
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.container {
+    width: 100%;
+}
+
+div {
+    box-sizing:border-box;
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+}
+
+li {
+    list-style: none;
+}
+
+.left {
+    width: 200px;
+    float: left;
+}
+
+.center {
+    width: auto;
+    margin-left: 240px;
+    margin-right: 160px;
+}
+
+.right {
+    width: 120px;
+    float: right;
+}
+
+img {
+    float: left;
+}
+
+img:not(:first-child) {
+    margin-top: 20px;
+}
+
+span {
+    margin-left: 20px;
+    font-size: 14px;
+}
