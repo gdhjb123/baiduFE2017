@@ -14,10 +14,6 @@ div {
     border: 1px solid #999;
 }
 
-li {
-    list-style: none;
-}
-
 .left {
     width: 200px;
     float: left;
