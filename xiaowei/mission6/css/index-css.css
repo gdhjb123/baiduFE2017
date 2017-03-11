@@ -50,9 +50,32 @@ main {
     margin-top: 36px;
 }
 
-.top-left img {
+.top-left-img {
+    position: relative;
+    width: 641px;
+    height: 301px;
+    margin-left: 42px;
     float: left;
-    margin-left: 44px;
+}
+
+.top-left-left {
+    width: 191px;
+    height: 301px;
+    background-color: #75b86b;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.top-left-right {
+    width: 191px;
+    height: 301px;
+    background-color: #d45d6c;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .top-right {
